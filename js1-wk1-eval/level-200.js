@@ -12,5 +12,11 @@
 // Part 3: Using Part 2, explain the difference between Math.trunc() and Math.floor() in your own words
 
 
+//ANSWERS:
+// a) 10.53   Math.trunc(10.53) = 10, Math.floor(10.53) = 10
+// b) 170.105  Math.trunc(170.105) = 170, Math.floor(170.105) = 170
+// c) -0.34    Math.trunc(-0.34) = 0, Math.floor(-0.34) = -1
+// d) -8.921   Math.trunc(-8.921) = -8, Math.floor(-8.921) = -9
 
+// The difference is Math.trunc removes the decimal part and keeps the enter part of the number, while Math.floor rounds to the nearest lower integer.
 

@@ -7,8 +7,12 @@ const secret = "cake";
 confession = confession.replaceAll(secret,'x'.repeat(secret.length));
 
 
-// a) How many function calls are there in this file?
+// a) How many function calls are there in this file? ONE 
 // b) Explain what the expression confession.replaceAll(secret,'x'.repeat(secret.length)); is doing
-// c) How many inputs do we pass to replaceAll when we call it? How can you tell?
+//ANSWER: It is replacing the word "cake" in the confession string with "xxxx" using the replaceAll method. 
+// c) How many inputs do we pass to replaceAll when we call it? How can you tell? 
+//ANSWER: Two inputs, because the first input is the string we want to replace, and the second input is the string we want to replace it with.
 // d) How any inputs do we pass to repeat when we call it?  How can you tell?
+//ANSWER: One input, becuase we are reemplancing the length of the word "cake" which is 4.
 // e) What kind of statement is on line 7?
+//ANSWER: Is passing the constant secret as an argument to the replaceAll method.
